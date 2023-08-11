@@ -1,0 +1,26 @@
+{
+  "name": "gulp_sass2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.65.1",
+    "tsc-watch": "^6.0.4"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.9",
+    "foundation-sites": "^6.7.5",
+    "typescript": "^5.1.6"
+  }
+}
