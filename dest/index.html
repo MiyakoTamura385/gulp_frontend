@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,18 +7,99 @@
     <title>Foundation Starter Template</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/other.css">
-    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="menu">
+            <li class="menu-text">Blog</li>
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Top Bar -->
+  
+      <div class="callout large primary">
+        <div class="row column text-center">
+          <h1>フロントエンドブロク</h1>
+          <h2 class="subheader">独学から起業するまで</h2>
+        </div>
+      </div>
+  
+      <!-- We can now combine rows and columns when there's only one column in that row -->
+      <div class="row medium-8 large-7 columns">
+        <div class="blog-post">
+          <h3>Awesome blog post title <small>3/6/2015</small></h3>
+          <img class="thumbnail" a href="../src/img/image1.jpeg">
+          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="#">Author: Mike Mikers</a></li>
+              <li><a href="#">Comments: 3</a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="blog-post">
+          <h3>Awesome blog post title <small>3/6/2015</small></h3>
+          <img class="thumbnail" src="https://gyazo.com/996684b1afe65be208100b1a777319fa
+          ">
+          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="#">Author: Mike Mikers</a></li>
+              <li><a href="#">Comments: 3</a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="blog-post">
+          <h3>Awesome blog post title <small>3/6/2015</small></h3>
+          <img class="thumbnail" src="https://placehold.it/850x350">
+          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="#">Author: Mike Mikers</a></li>
+              <li><a href="#">Comments: 3</a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="blog-post">
+          <h3>Awesome blog post title <small>3/6/2015</small></h3>
+          <img class="thumbnail" src="https://placehold.it/850x350">
+          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="#">Author: Mike Mikers</a></li>
+              <li><a href="#">Comments: 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <ul class="pagination text-center" role="navigation" aria-label="Pagination" data-page="6" data-total="16">
+        <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+        <li><a href="#" aria-label="Page 2">2</a></li>
+        <li><a href="#" aria-label="Page 3">3</a></li>
+        <li><a href="#" aria-label="Page 4">4</a></li>
+        <li class="ellipsis" aria-hidden="true"></li>
+        <li><a href="#" aria-label="Page 12">12</a></li>
+        <li><a href="#" aria-label="Page 13">13</a></li>
+        <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+      </ul>
+      
+      
 
     <script src="js/common.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script> $(document).foundation();</script>
 
   </body>
 </html>
